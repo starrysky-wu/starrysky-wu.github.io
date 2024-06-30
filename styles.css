@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile-img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.experience-item {
+    margin-bottom: 15px;
+}
+
+.experience-item::before {
+    content: "•";
+    color: #343a40;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
